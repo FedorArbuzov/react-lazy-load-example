@@ -9,7 +9,7 @@ cache:
 install: true
 script: echo "script"
 before_deploy:
-  - npm build
+  - npm run build
 deploy:
   provider: firebase
   token:
