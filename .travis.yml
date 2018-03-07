@@ -11,6 +11,7 @@ script: echo "script"
 before_deploy:
   - npm install
   - npm run build
+  - ls -l
 deploy:
   provider: firebase
   token:
