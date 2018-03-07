@@ -8,6 +8,8 @@ cache:
   yarn: true
 install: true
 script: echo "script"
+before_deploy:
+  - npm build
 deploy:
   provider: firebase
   token:
