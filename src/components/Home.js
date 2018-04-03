@@ -20,6 +20,7 @@ export default class Home extends Component {
 
     handleSubmit(event) {
         alert(this.state.email + ' ' + this.state.password);
+        window['user_info'] = this.state.email + ' ' + this.state.password;
         event.preventDefault();
     }
 

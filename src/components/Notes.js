@@ -1,5 +1,8 @@
 import React from 'react';
 
 export default function Notes() {
-    return <h1>Notes</h1>;
+    return (<div>
+                <h1>Notes</h1>
+                <p>{window['user_info']}</p>
+            </div>);
 }
