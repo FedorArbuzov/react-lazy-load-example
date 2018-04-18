@@ -1,4 +1,6 @@
 # react-lazy-load-example
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/FedorArbuzov/react-lazy-load-example.svg)](https://greenkeeper.io/)
 realization for react lazy loading
 
 
